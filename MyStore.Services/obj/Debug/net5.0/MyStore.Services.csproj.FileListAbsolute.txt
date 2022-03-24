@@ -1,0 +1,12 @@
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\bin\Debug\net5.0\MyStore.Services.deps.json
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\bin\Debug\net5.0\MyStore.Services.dll
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\bin\Debug\net5.0\ref\MyStore.Services.dll
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\bin\Debug\net5.0\MyStore.Services.pdb
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.csproj.AssemblyReference.cache
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.AssemblyInfoInputs.cache
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.AssemblyInfo.cs
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.csproj.CoreCompileInputs.cache
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.dll
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\ref\MyStore.Services.dll
+C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.pdb
