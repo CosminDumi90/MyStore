@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NMC+prIn6nKVSdfO5AmUcXXTzalQxN3dy68RYxyYkYsrvab6AhKXFvBceX5rYE++igcXxKZZlYNmCejoTslDwA==",
+  "dgSpecHash": "ayrKT33xYIf4cAXYBb2TmNJ4MTaMoGj9uf4zOkk+XkE20NHLR+j02GK+LqYizhkium7mCuwkaBznaHUVo9LJsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cosmin.dumitru\\Desktop\\Programs\\MyStore\\MyStore.Domain\\MyStore.Domain.csproj",
+  "projectFilePath": "C:\\Users\\dumitrco\\Desktop\\MyStore\\MyStore.Domain\\MyStore.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

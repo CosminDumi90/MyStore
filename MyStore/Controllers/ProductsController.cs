@@ -42,14 +42,17 @@ namespace MyStore.Controllers
 
         // GET api/<ProductsController>/5
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public ActionResult<ProductModel> GetById(int id)
         {
             var result = productService.GetById(id);
             if (result == null)
             {
                 return NotFound();
             }
-            return Ok(result);
+            else
+            {
+                return Ok(result);
+            }
         }
 
         // POST api/<ProductsController>

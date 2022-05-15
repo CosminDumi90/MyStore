@@ -10,3 +10,15 @@ C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5
 C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.dll
 C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\ref\MyStore.Services.dll
 C:\Users\cosmin.dumitru\Desktop\Programs\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.pdb
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\bin\Debug\net5.0\MyStore.Services.deps.json
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\bin\Debug\net5.0\MyStore.Services.dll
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\bin\Debug\net5.0\ref\MyStore.Services.dll
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\bin\Debug\net5.0\MyStore.Services.pdb
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.csproj.AssemblyReference.cache
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.AssemblyInfoInputs.cache
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.AssemblyInfo.cs
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.csproj.CoreCompileInputs.cache
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.dll
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\ref\MyStore.Services.dll
+C:\Users\dumitrco\Desktop\MyStore\MyStore.Services\obj\Debug\net5.0\MyStore.Services.pdb

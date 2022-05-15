@@ -16,7 +16,7 @@ namespace MyStore.Services
         bool Exists(int id);
         IEnumerable<ProductModel> GetAllProducts();
        ProductModel GetById(int id);
-        void UpdateProduct(ProductModel model);
+        ProductModel UpdateProduct(ProductModel model);
     }
     public class ProductService : IProductService
     {
@@ -34,15 +34,12 @@ namespace MyStore.Services
            var productModels= mapper.Map<IEnumerable<ProductModel>>(allProducts);
             return productModels;
         }
-
-
         public ProductModel GetById(int id)
         {
           var allProductsById= productRepository.GetById(id);
             var allProductModelsById = mapper.Map<ProductModel>(allProductsById);
             return allProductModelsById;
         }
-
         public ProductModel AddProduct(ProductModel newProduct)
         {
             //-.Product model - > Product
@@ -52,10 +49,11 @@ namespace MyStore.Services
             newProduct = mapper.Map<ProductModel>(addedProduct);
             return newProduct;
         }
-        public void UpdateProduct(ProductModel model)
+        public ProductModel UpdateProduct(ProductModel model)
         {
             Product productToUpdate = mapper.Map<Product>(model);
-            productRepository.Update(productToUpdate);
+            var updatedProduct = productRepository.Update(productToUpdate);
+            return mapper.Map<ProductModel>(updatedProduct);
         }
         public bool Exists(int id)
         {
@@ -67,7 +65,5 @@ namespace MyStore.Services
             var itemToDelete = productRepository.GetById(id);
             return productRepository.Delete(itemToDelete);
         }
-
-
     }
 }

@@ -49,16 +49,7 @@ namespace MyStore.Data
             
             return query;
         }
-        //public IQueryable<Order> GetAll(List<string> shipCities/*, List<string> shipcities*/)
-        //{
-        //    var query = this.context.Orders.Include(x => x.Cust).Select(x => x);
 
-        //    if (shipCities.Count!=0)
-        //    {
-        //        query = query.Where(x => shipCities.Contains(x.Shipcity));
-        //    }
-        //    return query;
-        //}
         public Order GetById(int orderId)
         {
             return context.Orders.FirstOrDefault(x => x.Orderid == orderId);

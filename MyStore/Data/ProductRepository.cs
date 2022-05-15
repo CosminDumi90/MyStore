@@ -15,7 +15,7 @@ namespace MyStore.Data
 
         Product GetById(int productId);
         Product Add(Product newProduct);
-        void Update(Product productToUpdate);
+        Product Update(Product productToUpdate);
         bool Exists(int id);
         bool Delete(Product productToDelete);
     }
@@ -42,10 +42,11 @@ namespace MyStore.Data
             context.SaveChanges();
             return addedProduct.Entity;
         }
-        public void Update(Product productToUpdate)
+        public Product Update(Product productToUpdate)
         {
-            context.Products.Update(productToUpdate);
+            var updatedProduct = context.Products.Update(productToUpdate);
             context.SaveChanges();
+            return updatedProduct.Entity;
 
         }
         public bool Exists(int id)

@@ -22,10 +22,10 @@ namespace MyStore.Controllers
         }
         // GET: api/<CustomersController>
         [HttpGet]
-        public IEnumerable<CustomerModel> Get()
+        public ActionResult<IEnumerable<CustomerModel>> Get()
         {
             var customerList = customerService.GetAllCustomers();
-            return customerList;
+            return Ok(customerList);
         }
      
 

@@ -34,7 +34,72 @@ namespace MyStore.Tests
             Assert.Equal(2, result.Count());
             Assert.IsType<List<Product>>(result);
         }
+        [Fact]
+        public void Should_GetOneProduct()
+        {
+            //arrange
+            var mockRepo = new Mock<IProductRepository>();
+            mockRepo.Setup(repo => repo.GetById(ReturnMultiple()[0].Productid))
+                .Returns(ReturnOneProduct(Consts.TestProduct));
 
+            //act
+            var result = mockRepo.Object.GetById(Consts.TestProduct);
+
+            //asert
+            Assert.Equal(Consts.TestProduct, result.Productid);
+            Assert.IsType<Product>(result);
+        }
+
+
+  
+        [Fact]
+        public void Shoul_Return_Product_On_Post()
+        {
+            //arrange
+            var mockRepo = new Mock<IProductRepository>();
+            mockRepo.Setup(repo => repo.Add(It.IsAny<Product>())).Returns(ReturnOneProduct(Consts.TestProduct));
+
+            //act
+            var result = mockRepo.Object.Add(ReturnOneProduct(Consts.TestProduct));
+
+            //asert
+            Assert.Equal(Consts.ProductName, result.Productname);
+            Assert.IsType<Product>(result);
+        }
+        [Fact]
+        public void ShouldReturn_Product_On_Put()
+        {
+            //arrange
+            var mockRepo = new Mock<IProductRepository>();
+            mockRepo.Setup(repo => repo.Update(It.IsAny<Product>())).Returns(ReturnOneProduct(Consts.TestProduct));
+
+            //act
+            var result = mockRepo.Object.Update(ReturnOneProduct(Consts.TestProduct));
+
+            //asert
+            Assert.Equal(Consts.ProductName, result.Productname);
+            Assert.IsType<Product>(result);
+        }
+
+
+        [Fact]
+        public void Shoul_Return_True_On_Delete()
+        {
+            //arrange
+            var mockRepo = new Mock<IProductRepository>();
+            mockRepo.Setup(repo => repo.Delete(It.IsAny<Product>())).Returns(true);
+
+            //act
+            var result = mockRepo.Object.Delete(ReturnOneProduct(Consts.TestProduct));
+
+            //asert
+            Assert.True(result);
+        }
+        private Product ReturnOneProduct(int i)
+        {
+            IEnumerable<Product> products = ReturnMultiple();
+            return products.Where(x => x.Productid == i).FirstOrDefault();
+        }
         private List<Product> ReturnMultiple()
         {
             return new List<Product>() {
